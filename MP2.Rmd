@@ -1,0 +1,31 @@
+---
+title: "MP2"
+author: "Anthony Weng, Rachel Ruggera, Joseph Locurto, Brendan Fox"
+date: "2023-02-16"
+output: html_document
+---
+## Introduction 
+
+MP2, our lab exercise, studied the biomechanical properties of terrestrial locomotion through the inverted pendulum model. We sought to better understand and determine the predicting capabilities of such a model in the maximum walking speed as well as how various kinematic components such as pelvic tilt may affect walking speed. Additionally, we explored the differences in kinematic variables and walking speed amongst different sex or sizes by comparing walking speeds. The main question we tried to answer was how well the inverted pendulum could predict the maximum walking speed and how various factors affected walking speed. To accomplish this, we utilized image processing to analyze videos of us walking to, first, compare maximum walking velocity (vmax) to the observed maximum walking speed and compared data across samples, as well as compare pelvic tilt between normal walking at a comfortable versus fast pace. 
+
+## Methods
+
+To answer the questions that arose, we had to first record three separate videos of us walking 5 meters: one where we walked with our knees locked and hands to the side, one where we walked normally at a comfortable pace with the apparatus, and one where we walked normally at a fast pace with the apparatus. Then, using ImageJ and MTrackJ, we tracked specific points that were marked on the apparatus across video frames thus allowing us to determine and compare the pelvic tilt angle for the latter two videos. The first video allowed us to determine the predicting capabilities of an inverted pendulum model by comparing the predicted maximum walking velocity that is calculated through the model and the actual observed maximum walking speed in the last video. After uploading our data to the spreadsheet of overall class data, we can then determine how walking speed changes with factors such as sex and leg length as well as how pelvic tilt changes with walking speed. 
+
+## Results
+
+## Discussion
+
+## Author Contributions
+
+## References
+
+
+```{r,include=FALSE}
+library(tidyverse) #always
+library(ggplot2)
+``` 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
